@@ -8,9 +8,10 @@
   </view>
   <swiper class="banner" indicator-dots="true" autoplay="true" interval="3000" duration="1000">
     <swiper-item wx:for="{{banner}}" wx:key="id">
-      <!-- <navigator url="{{item.link}}"> -->
-      <image src="{{item.url}}" background-size="cover"></image>
-      <!-- </navigator> -->
+      <navigator url="../goods/goods?id={{item.link}}">
+        <image src="{{item.url}}" background-size="cover"></image>
+               
+      </navigator>
     </swiper-item>
   </swiper>
   <view class="m-menu">
@@ -96,8 +97,8 @@
             <image class="img" src="{{item.picUrl}}" mode="aspectFill"></image>
             <view class="mt">
               <text class="brand">{{item.name}}</text>
-              <text class="price">{{item.floorPrice}}</text>
-              <text class="unit">元起</text>
+              <!-- <text class="price">{{item.floorPrice}}</text>
+              <text class="unit">元起</text> -->
             </view>
           </view>
         </navigator>

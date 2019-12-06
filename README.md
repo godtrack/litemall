@@ -124,6 +124,10 @@ litemall = Spring Boot后端 + Vue管理员前端 + 微信小程序用户前端 
     cnpm run dev
     ```
     此时，浏览器打开，输入网址`http://localhost:9527`, 此时进入管理后台登录页面。
+     
+    生产打包
+    cnpm run build:prod
+
     
 5. 启动小商城前端
    

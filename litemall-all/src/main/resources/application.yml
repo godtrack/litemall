@@ -5,7 +5,10 @@ spring:
     encoding: UTF-8
 
 server:
-  port: 8080
+  port: 11510
 
 logging:
   config: classpath:logback-spring.xml
+
+logback:
+  path: E:/devData/logs/litemall-all

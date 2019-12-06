@@ -8,7 +8,8 @@
 
   <view class='separate'></view>
 
-  <view class='user_area'>
+  <!-- 隐藏订单模块  -->
+  <!-- <view class='user_area'>
     <view class='user_row' bindtap='goOrder'>
       <view class='user_row_left'>我的订单</view>
       <image class='user_row_right' src='/static/images/goright.png'></image>
@@ -40,19 +41,20 @@
         <view class='user_column_item_text'>售后</view>
       </view>
     </view>
-  </view>
+  </view> -->
 
   <view class='separate'></view>
 
   <view class='user_row'>
-    <view class='user_row_left'>核心服务</view>
+    <view class='user_row_left'>我的</view>
   </view>
   <view class='user_column'>
 
-    <view class='user_column_item' bindtap='goCoupon'>
+    <!-- 隐藏无用模块 -->
+    <!-- <view class='user_column_item' bindtap='goCoupon'>
       <image class='user_column_item_image' src='/static/images/coupon.png'></image>
       <view class='user_column_item_text'>优惠卷</view>
-    </view>
+    </view> -->
     <view class='user_column_item' bindtap='goCollect'>
       <image class='user_column_item_image' src='/static/images/icon_collect.png'></image>
       <view class='user_column_item_text'>商品收藏</view>
@@ -61,7 +63,14 @@
       <image class='user_column_item_image' src='/static/images/footprint.png'></image>
       <view class='user_column_item_text'>浏览足迹</view>
     </view>
-    <view class='user_column_item' bindtap='goGroupon'>
+   
+    <view class='user_column_item'>
+    </view>
+    <view class='user_column_item'>
+    </view>
+    <view class='user_column_item'>
+    </view>
+    <!-- <view class='user_column_item' bindtap='goGroupon'>
       <image class='user_column_item_image' src='/static/images/group.png'></image>
       <view class='user_column_item_text'>我的拼团</view>
     </view>
@@ -69,7 +78,7 @@
     <view class='user_column_item' bindtap='goAddress'>
       <image class='user_column_item_image' src='/static/images/address.png'></image>
       <view class='user_column_item_text'>地址管理</view>
-    </view>
+    </view> -->
   </view>
   <view class='separate'></view>
 
