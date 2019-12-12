@@ -121,56 +121,8 @@
 				},
 				{
 					"id": -1,
-					"name": "购物车",
-					"pathName": "pages/cart/cart",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "下单",
-					"pathName": "pages/checkout/checkout",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "支付结果",
-					"pathName": "pages/payResult/payResult",
-					"query": ""
-				},
-				{
-					"id": -1,
 					"name": "我的",
 					"pathName": "pages/ucenter/index/index",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "我的订单列表",
-					"pathName": "pages/ucenter/order/order",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "我的订单详情",
-					"pathName": "pages/ucenter/orderDetail/orderDetail",
-					"query": "id=1"
-				},
-				{
-					"id": 22,
-					"name": "待评价的订单详情",
-					"pathName": "pages/ucenter/orderDetail/orderDetail",
-					"query": "id=1"
-				},
-				{
-					"id": -1,
-					"name": "购买商品评价",
-					"pathName": "pages/commentPost/commentPost",
-					"query": "orderId=2&type=0&valueId=1116011"
-				},
-				{
-					"id": 22,
-					"name": "我的优惠券",
-					"pathName": "pages/ucenter/couponList/couponList",
 					"query": ""
 				},
 				{
@@ -237,30 +189,6 @@
 					"id": -1,
 					"name": "意见反馈",
 					"pathName": "pages/ucenter/feedback/feedback",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "团购专区",
-					"pathName": "pages/groupon/grouponList/grouponList",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "选择优惠券",
-					"pathName": "pages/ucenter/couponSelect/couponSelect",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "我的优惠券列表",
-					"pathName": "pages/ucenter/couponList/couponList",
-					"query": ""
-				},
-				{
-					"id": -1,
-					"name": "优惠券列表",
-					"pathName": "pages/coupon/coupon",
 					"query": ""
 				},
 				{

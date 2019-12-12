@@ -3,6 +3,8 @@ spring:
     active: db, core, admin, wx
   messages:
     encoding: UTF-8
+  application:
+    name: m3-mall
 
 server:
   port: 11510
