@@ -21,7 +21,7 @@
     </navigator>
   </view>
 
-  <view class="a-section a-coupon" wx:if="{{coupon.length > 0}}">
+  <!-- <view class="a-section a-coupon" wx:if="{{coupon.length > 0}}">
     <view class="h">
       <view class="title">
         <view>
@@ -82,12 +82,12 @@
         </navigator>
       </view>
     </view>
-  </view>
+  </view> -->
 
   <view class="a-section a-brand">
     <view class="h">
       <navigator url="../brand/brand">
-        <text class="txt">品牌制造商直供</text>
+        <text class="txt">店铺</text>
       </navigator>
     </view>
     <view class="b">
@@ -105,11 +105,11 @@
       </view>
     </view>
   </view>
-  <view class="a-section a-new" wx:if="{{newGoods.length > 0}}">
+  <!-- <view class="a-section a-new" wx:if="{{newGoods.length > 0}}">
     <view class="h">
       <view>
         <navigator url="../newGoods/newGoods">
-          <text class="txt">周一周四 · 新品首发</text>
+          <text class="txt">新品首发</text>
         </navigator>
       </view>
     </view>
@@ -122,7 +122,7 @@
         </navigator>
       </view>
     </view>
-  </view>
+  </view> -->
 
   <view class="a-section a-popular" wx:if="{{hotGoods.length > 0}}">
     <view class="h">
